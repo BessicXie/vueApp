@@ -1,0 +1,19 @@
+{
+  "name": "vue-app-mobile",
+  "version": "1.0.0",
+  "description": "a new vue  app use in mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BessicXie/vueApp.git"
+  },
+  "author": "BessicZhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BessicXie/vueApp/issues"
+  },
+  "homepage": "https://github.com/BessicXie/vueApp#readme"
+}
