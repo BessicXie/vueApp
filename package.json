@@ -1,28 +1,37 @@
 {
-  "name": "vue-app-mobile",
-  "version": "1.0.0",
-  "description": "a new vue  app use in mobile",
-  "main": "index.js",
-  "homepage":".",
-  "scripts": {
-    "build": "webpack --config webpack.config.js --mode=development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BessicXie/vueApp.git"
-  },
-  "author": "BessicZhou",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BessicXie/vueApp/issues"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
-  },
-  "dependencies": {
-    "vue-loader": "^15.7.0"
-  }
+    "name": "vue-app-mobile",
+    "version": "1.0.0",
+    "description": "a new vue  app use in mobile",
+    "main": "index.js",
+    "homepage": ".",
+    "scripts": {
+        "build": "webpack --config webpack.config.js --mode=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BessicXie/vueApp.git"
+    },
+    "author": "BessicZhou",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BessicXie/vueApp/issues"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^8.0.5",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.1"
+    },
+    "dependencies": {
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+        "@babel/plugin-transform-runtime": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "babel-plugin-component": "^1.1.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "vue": "^2.6.10",
+        "vue-loader": "^15.7.0",
+        "vue-template-compiler": "^2.6.10"
+    }
 }
